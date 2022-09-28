@@ -14,7 +14,7 @@ export default function Home() {
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl">
-              Hello 👋🏻, I'm
+              Hello 👋🏻, I&apos;m
               <span class="mt-1 block text-4xl font-bold text-dark lg:text-5xl">Pawitra Warda</span>
             </h1>
             <h2 class="mb-5 text-lg font-medium text-secondary lg:text-2xl">WEB Developer</h2>
