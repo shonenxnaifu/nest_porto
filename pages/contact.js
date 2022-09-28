@@ -1,8 +1,11 @@
+import Seo from "../components/Seo"
 
 
 const contact = () => {
   return (
-    <section id="contact" class="pt-36 pb-32">
+    <>
+      <Seo templateTitle="Contact"/>
+      <section id="contact" class="pt-36 pb-32">
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
@@ -45,6 +48,7 @@ const contact = () => {
         </form>
       </div>
     </section>
+    </>
   )
 }
 

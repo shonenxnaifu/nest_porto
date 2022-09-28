@@ -5,11 +5,13 @@ import ecommerceTwo from "../public/images/ecommerce2.jpeg";
 import landingpageOne from "../public/images/landingpage1.jpeg";
 import landingpageTwo from "../public/images/landingpage2.jpeg";
 import Link from "next/link";
+import Seo from "../components/Seo";
 
 
 export default function Home() {
   return (
     <>
+    <Seo/>
     <section id="hero" class="pt-36">
       <div class="container mx-auto">
         <div class="flex flex-wrap">

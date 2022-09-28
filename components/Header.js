@@ -60,25 +60,29 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="group">
+                  <Link href="/#about">
                   <a
-                    href="#about"
                     className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
                     About
                   </a>
+                  </Link>
                 </li>
                 <li className="group">
+                <Link href="/#techstack">
                   <a
-                    href="#techstack"
                     className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
                     Tech Stack
                   </a>
+                  </Link>
                 </li>
                 <li className="group">
+                <Link href="/#project">
                   <a
                     href="#project"
                     className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
                     Project
                   </a>
+                  </Link>
                 </li>
                 <li className="group">
                   <Link href="/contact">

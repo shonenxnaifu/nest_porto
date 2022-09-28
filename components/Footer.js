@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer class="bg-dark pt-10 pb-12">
+    <footer class="bg-dark pt-10 pb-12" id="footer">
       <div class="container mx-auto">
         <div class="w-full pt-10">
           <div class="mb-5 flex items-center justify-center">
