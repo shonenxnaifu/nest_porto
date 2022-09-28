@@ -4,6 +4,7 @@ import ecommerceOne from "../public/images/ecommerce1.jpeg";
 import ecommerceTwo from "../public/images/ecommerce2.jpeg";
 import landingpageOne from "../public/images/landingpage1.jpeg";
 import landingpageTwo from "../public/images/landingpage2.jpeg";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -21,11 +22,12 @@ export default function Home() {
             <p class="mb-10 font-medium leading-relaxed text-secondary">
               I build things for web
             </p>
+            <Link href="/contact">
             <a
-              href="#"
               class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">
               Contact Me
             </a>
+            </Link>
           </div>
           <div class="w-full self-end px-4 lg:w-1/2 flex justify-center lg:justify-end">
             <div class="relative mt-10 lg:right-0 lg:mt-9 max-w-sm">
@@ -224,7 +226,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section id="project" class="bg-slate-100 pt-24 pb-16">
+    <section id="project" class="pt-24 pb-16">
       <div class="container mx-auto">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
@@ -236,7 +238,7 @@ export default function Home() {
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
               <Image src={landingpageOne} alt="Landing Page 1" class="w-full"/>
               <div class="py-8 px-6 text-center">
@@ -255,7 +257,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
             <Image src={landingpageTwo} alt="Landing Page 2" class="w-full"/>
               <div class="py-8 px-6 text-center">
@@ -274,7 +276,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
             <Image src={ecommerceOne} alt="E-Commerce 1" class="w-full"/>
               <div class="py-8 px-6 text-center">
@@ -293,7 +295,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
             <Image src={ecommerceTwo} alt="E-Commerce 2" class="w-full"/>
               <div class="py-8 px-6 text-center">

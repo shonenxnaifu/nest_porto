@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 
@@ -27,7 +28,9 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="relative flex items-center justify-between">
           <div className="px-4">
-            <a href="/" className="block py-6 text-lg font-bold text-primary">pawitrawarda</a>
+            <Link href="/">
+              <a className="block py-6 text-lg font-bold text-primary">pawitrawarda</a>
+            </Link>
           </div>
           <div className="flex items-center px-4">
             <button
@@ -49,11 +52,12 @@ const Header = () => {
               ref={navRef}>
               <ul className="block lg:flex">
                 <li className="group">
-                  <a
-                    href="#hero"
-                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
-                    Home
-                  </a>
+                  <Link href="/">
+                    <a
+                      className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
+                      Home
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
                   <a
@@ -77,11 +81,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="group">
+                  <Link href="/contact">
                   <a
-                    href="#contact"
                     className="mx-8 flex py-2 text-base text-dark group-hover:text-primary">
                     Contact
                   </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
