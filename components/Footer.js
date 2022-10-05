@@ -2,18 +2,18 @@
 
 const Footer = () => {
   return (
-    <footer class="bg-dark pt-10 pb-12" id="footer">
-      <div class="container mx-auto">
-        <div class="w-full pt-10">
-          <div class="mb-5 flex items-center justify-center">
+    <footer className="bg-dark pt-10 pb-12" id="footer" data-testid="footer">
+      <div className="container mx-auto">
+        <div className="w-full pt-10">
+          <div className="mb-5 flex items-center justify-center">
             <a
               href="https://instagram.com"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              clas="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
               <svg
                 role="img"
                 width="20"
-                class="fill-current"
+                className="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>Instagram</title>
@@ -25,11 +25,11 @@ const Footer = () => {
             <a
               href="https://instagram.com"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
               <svg
                 role="img"
                 width="20"
-                class="fill-current"
+                className="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>Twitter</title>
@@ -41,11 +41,11 @@ const Footer = () => {
             <a
               href="https://instagram.com"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
               <svg
                 role="img"
                 width="20"
-                class="fill-current"
+                className="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>LinkedIn</title>
@@ -54,8 +54,8 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p class="text-center text-sm font-medium text-slate-300">
-            &copy; Copyright 2022 <a href="https://github.com/shonenxnaifu/nest_porto" target="_blank" class="font-bold text-primary">
+          <p className="text-center text-sm font-medium text-slate-300">
+            &copy; Copyright 2022 <a href="https://github.com/shonenxnaifu/nest_porto" target="_blank" className="font-bold text-primary">
               Pawitra
             </a>
           </p>
